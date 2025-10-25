@@ -7,7 +7,7 @@ This repository contains the material for the tutorial held at ECAI 2025 (Euro
 ## 📂 Structure  
 - `1_fluke_custom_alg.ipynb` : Demonstrates how to extend fluke with a new custom algorithm.  
 - `2_fluke_krum.ipynb` : Shows how to implement and evaluate a robust aggregation technique (e.g., Ť Krum) within fluke.  
-- `3_fluke_malicious.ipynb` : Explores setting up a malicious client scenario and evaluating its impact on federated training.  
+- `3_fluke_lgfedavg.ipynb` : Shows how to handle clients-server communication.  
 - `README.md` : This file.  
 
 ## 🛠 Prerequisites  
