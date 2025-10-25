@@ -30,7 +30,7 @@ Before running the notebooks, please ensure you have:
 
 ## 📘 Tutorial Flow
 
-1. **Custom Algorithm**  
+1. **Custom Algorithm and model**  
    Learn how Fluke’s modular architecture allows you to define and integrate your own federated learning algorithms.  
    You’ll understand how to subclass key components and register them in the training pipeline.
 
@@ -38,9 +38,9 @@ Before running the notebooks, please ensure you have:
    Implement the *Krum* defense technique to make the server’s aggregation process robust against adversarial or faulty clients.  
    This section demonstrates how to plug in existing defenses or design new ones.
 
-3. **Malicious Clients Simulation**  
-   Simulate and analyze the impact of malicious participants in a federated learning setting.  
-   You’ll explore attack strategies, evaluate robustness, and visualize performance under adversarial conditions.
+3. **Hndling clinet-server communication**  
+   This notebook implements LG-FedAVG and shows how to manage the communication between clients and server 
+   in case the parties do not follow the standard FedAVG communication scheme.
 
 Throughout the tutorial, you’ll gain hands-on experience with:
 - Federated communication (clients ↔ server)
